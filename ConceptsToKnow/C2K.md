@@ -1,0 +1,1 @@
+[Python 101: Learn the 5 Must-Know Concepts](https://youtu.be/mMv6OSuitWw?si=7Tyktft7vlz5Z3QG)
