@@ -7,7 +7,9 @@ class PlayerCharacter:
         this method is automatically called whenever we instantiate the class 
         Here self refers to the playerCharacter object
         '''
-        self.name = name #attribute
+        self._name = name #attribute & if we see underscore before the name it means it is a private attribute , which means we can directly modify it's value 
+        
+        
 
     # def __repr__(self):
     #     '''This method returns a string representation of the object
