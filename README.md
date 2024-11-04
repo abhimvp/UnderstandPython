@@ -1,6 +1,9 @@
 # UnderstandPython
 
 [ZTM:PythonDev](https://github.com/aneagoie/ztm-python-course-exercises)
+
+---
+
 [Expert Python Tutorial #1 - Overview of Python & How it Works](https://youtu.be/mclfteWlT2Q?si=y1G2sLThk26xOCEn)
 
 # Decorator
