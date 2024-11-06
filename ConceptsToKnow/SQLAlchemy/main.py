@@ -46,7 +46,22 @@ class Person(Base):
         )
 
 
-# Above we create a database Table
+class Thing(Base):
+    __tablename__ = "things"
+    tid = Column("tid", Integer, primary_key=True)
+    description = Column("description", String(32), nullable=False)
+    owner = Column("owner", Integer, ForeignKey("people.ssn"))
+
+    def __init__(self, tid, description, owner):
+        self.tid = tid
+        self.description = description
+        self.owner = owner
+
+    def __repr__(self):
+        return f"{self.tid} {self.description} owned by {self.owner}"
+
+
+# Above we create a database Tables
 # Now we need to create an engine to connect to the database
 # & specify what database we're going to connect to
 engine = create_engine("sqlite:///mydb.db", echo=True)
@@ -74,20 +89,43 @@ session = Session()  # instance
 # session.add_all([p1, p2, p3, p4])
 # session.commit()
 
-# we can also query the database
-result = session.query(Person).all()
-# this will return a list of all the people in the database
-# we get python objects from the database
-# print(result)
-for person in result:
-    print(person)
+# # we can also query the database
+# result = session.query(Person).all()
+# # this will return a list of all the people in the database
+# # we get python objects from the database
+# # print(result)
+# for person in result:
+#     print(person)
 
-# we can also filter the query
-result_filtered = session.query(Person).filter(Person.age > 30)
-print("Filtered Results:", result_filtered.all())
-# filter using in_ on firstnme
-result_filtered_firstname = session.query(Person).filter(
-    Person.firstname.in_(["John", "Jane"])
+# # we can also filter the query
+# result_filtered = session.query(Person).filter(Person.age > 30)
+# print("Filtered Results:", result_filtered.all())
+# # filter using in_ on firstnme
+# result_filtered_firstname = session.query(Person).filter(
+#     Person.firstname.in_(["John", "Jane"])
+# )
+# # result_filtered = session.query(Person).filter(Person.age.in_([30, 35]))
+# print("Filtered Results:", result_filtered_firstname.all())
+
+# p6 = Person(127, "John", "Doe", "M", 90)
+
+# t1 = Thing(1, "Car", p1.ssn)
+# t2 = Thing(2, "Bike", p2.ssn)
+# t3 = Thing(3, "Boat", p3.ssn)
+# t4 = Thing(4, "Truck", p4.ssn)
+# t5 = Thing(5, "Plane", p6.ssn)
+# t6 = Thing(6, "Rocket", p6.ssn)
+# t7 = Thing(7, "Ship", person.ssn)
+# session.add_all([p6, t1, t2, t3, t4, t5, t6, t7])
+# session.commit()
+
+# a query to give all things owned by person p6
+query_result_p6 = (
+    session.query(Person,Thing)
+    .filter(Thing.owner == Person.ssn)
+    .filter(Person.firstname == "John")
+    .all()
 )
-# result_filtered = session.query(Person).filter(Person.age.in_([30, 35]))
-print("Filtered Results:", result_filtered_firstname.all())
+
+for result in query_result_p6:
+    print(result)
