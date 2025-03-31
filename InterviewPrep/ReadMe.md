@@ -88,7 +88,119 @@ Reference : [TechWithTim](https://youtu.be/BeqlRl5dV_8?si=fFeI1FyVKeYrMJnZ)
     - Record yourself and watch it back.
 
 - Hands on coding interview:
+
   - Technical Interview : it's much more about the way that you communicate, and that you talk with your interviewer than it is necessarily about you getting the correct answer.
     - The reason for companies give these technical interviews to get an inside look at the way that you think and you break down problems, so even if you know the answer immediately the last thing you want to do is : `Go ahead and solve it`(especially if you're solving it silently).
     - show the interviewer your step by step process and that you can think problems critically.
     - you want to pretend like you don't know the answer and think through it & show them that your problem solving in real time to come up with the solution.
+  - So `How do you solve these kind of problems`:
+    - Again your interviewer is going to give you a question.
+    - And what you want to do before you do anything else is you want to make sure `you fully understand the question that you're being asked`.
+    - Now, `you do this by reading over the question again if it's something that's visual, drawing an example.`So for example, `if it's a graph type problem`, you'd want to `actually draw out the graph` and `really make sure you kind of understand what's going on`.And `you want to run through a sample test case and a sample solution and make sure you understand how you get that`.
+    - Now if you have any questions you want to ask the interviewer.
+      - So `if you're unsure about the type of input`, if you don't really understand kind of how the answer is derived, it's totally fine.
+      - `Ask for clarification`.
+      - And a lot of times interviewers will really make it unnecessarily complicated and `you need to dig a little bit to kind of get that clarity that you're looking for`.
+    - In fact, `this is something a lot of interviewers are looking for.`
+      - They want to see how you kind of clarify the problem and gather the requirements.
+      - And they may actually intentionally make the question vague to see if you start digging for more information.
+    - So first thing, really make sure you **`understand everything before you go forward`** and **`come up with some questions to ask the interviewer to narrow down the problem and make it more clear.`**
+      - Some good questions are things like could I expect an `empty input` here?
+      - Is the input always going to have at least one row?
+      - Is this only going to be capital letters? Lowercase letters?
+      - Just make sure you really narrow it down and think about the various kind of edge cases or situations that could occur.
+    - Okay, now once you've done that and you fully understand the problem you're being asked,
+      - the next thing you want to do is `come up with a plan`. - **Make a Plan**
+      - You don't want to start writing any code at this stage.
+      - You want to just understand how you go about tackling the problem.
+      - This is kind of an experimental stage where you're just **showing the interviewer your thought process.**
+      - **So everything you do here, you should be speaking out loud.**
+    - **Make a Plan** - you want to plan it out
+      - break down the problem
+      - come up with an **algorithm** or the steps that you're going to use to solve it.
+        - You would write this in plain English.
+        - You could draw a messy diagrams. Doesn't matter.
+      - You just want to explain to the interviewer that you don't just jump right into coding.
+      - You come up with this detailed plan.
+        - You validate that this plan will actually work for the inputs that you're given, and then you can go code.
+      - **So again, clarify the problem.Come up with a plan.And now once you have the plan you want to verify that it will actually work.Once you've come up with this plan now it's time to translate the plan to code.**
+    - You shouldn't be spending a lot of time when you're coding,sitting there and thinking about the next thing that you're going to write.It should very much be that **you do a lot of the difficult thinking in your planning phase**, and then you simply take the plan and you translate it to code as if you were writing English, right, but you're just writing it in code.
+    - **So during the coding phase:**
+      - again, you want to explain what you're doing line by line.
+      - Walkthrough I'm writing this line because it does this.
+      - This is the next step that I need.
+      - And you want to constantly be talking.
+    - **You want to have your stream of consciousness being kind of injected into the interviewer's brain.**
+    - But most of all, it's **demonstrating** that you do actually know what you're doing.You're thinking through it step by step,and it allows them to follow along with what you're doing really well.
+  - Now, while you are coding this out and you're articulating your thought process, the **way you write the code does really matter.**
+    - First of all, it needs to be clear that you've written a lot of Python code before.
+    - You can only get this by actually practicing and doing a lot of these types of problems.
+    - But **you should be fluent and you should know the syntax well**.
+    - It's okay if you forget something or if you're missing a colon or some, you know, something like that.If you're writing on the whiteboard, they're usually not that strict.
+  - But generally speaking, you should be very familiar with the Python syntax and `know when to use what feature`.
+  - **You also should write in a pythonic style**
+    - what that means that you want to write code following `PEP8 standards`.
+    - Now, PEP8 is the official style guide for Python,and it defines the way in which you write code.
+      - For example, you have things like `you want to use snake case` rather than using camel case.
+      - Snake case means you use an underscore rather than a capital letter.To separate words in a variable or a function, you want to have proper indentation levels.Of course, that's very important in Python, right?
+      - You want to have, for example, a space after you start a comment, when you start writing the comments, you would have like the number, sign a space and then the comment and you would also have a space between the end of the line and where the comment starts.There's a lot of these random things that you should be familiar with to make sure that when you're writing Python code, it looks **pythonic**.
+  - You want to use Python specific features, things like a
+    - list comprehensions,
+    - the max function
+    - the min function
+    - the absolute value function.**You should be familiar with these features.**
+  - And if you are going to use something that's a much more complex Python feature, maybe,
+    - for example, a lambda function,
+    - or you're going to bring in something from the collections module,
+    - then at that point I would **ask permission of the interviewer**, because a lot of times it can solve the problem very quickly and take care of most of the coding that they would be expecting you to do.
+    - So again, don't be afraid to use those Python specific features, but if it's something that's going to make your **entire solution like one line of code, then maybe ask the interviewer first** so that they don't feel like you're kind of cheating, right?
+  - Now, along those lines, when you're using these Python features and a lot of them are higher level features, meaning they do a lot of work for you, you want to make sure
+    - **you're explaining to the interviewer that you know what these things do.**
+    - So if you use something like the **split** method right on string, you want to explain, you know what it's doing.
+    - And also you'd want to **explain the time complexity** of those particular features.
+  - But once you finish writing all of the code out, **you're going to review the code**
+  - and you're going to **analyze it for its time complexity.**
+  - How long does this take relative to the inputs?
+  - And if you use a lot of Python features, you should **know what those Python features lower level time complexity** is.
+  - So if you use something like **.find** on a string, for example, that's a big O of N time complexity operation.
+  - If you **pop** something from the beginning of a list again,that's a big O of N time complexity operation.
+  - `So you should know what all of the time complexities are of these features that you're using,`and make sure you don't miss them when you're analyzing the time complexity of your code.
+  - Now, of course you analyze and then you can review your code.`Make sure that it's all good, fix any bugs you may potentially have, and then you can kind of test it.`
+
+- **So the overall formula that you should remember is understand the question and clarify.Make a plan, validate the plan is correct.Translate your plan into code, review the code and analyze the time complexity and then make any revisions or changes.That's how you can really perform well in this coding interview.**
+
+## So really, the only way you're going to get good at this is by doing a lot of practice.
+
+- But the important thing, like I said before, is that **you practice like you play**.
+- If you know that you're going to go into an office, someone's going to be sitting in front of you,
+  - you're going to have a whiteboard,
+  - and you're going to have to code this out live and explain your thought process.
+  - That's the way you should be practicing.
+  - **It's awkward. It's weird.**
+  - It's not something that most people do.
+  - But when I prepared for my coding interviews, I literally bought a **whiteboard(Do it on that)** like you can see behind me.
+  - I put it up on my wall and I practice doing coding interviews,`recording myself with a camera`, and `articulating my entire thought process.`
+  - Every single algo expert or leetcode style question I did, I went and I literally wrote it out on the whiteboard. And then I would take the thing,
+  - I would write it in my code editor after, and I would test and see if it's working.
+  - So **you want to simulate the environment you're going to be in as closely as possible and practice every single step.**
+  - It's one thing to be able to answer the question in this really fancy online code editor, where you're not having to explain your thought process,you can just sit there and think silently for 30, 40, you know, 60 plus minutes.
+  - It's another thing to do it in the environment that's simulating that type of stress and exactly what you're going to be doing.
+  - **So that's a number one tip I can give you.**
+  - Practice like you play now in terms of how do you practice if you're just starting out, you want to make sure that you **really learn data structures and algorithms**.
+    - This means you want to really deeply understand
+      - stack
+      - Queues
+      - lists
+      - arrays
+      - write heaps, all of these core data structures.
+      - **You need to know what they are.**
+      - `You need to know the time complexities of them, and you realistically should be able to implement them on your own and know when to use them for different types of problems.`
+    - You also want to be **familiar with famous algorithms** things like
+      - bubble sort
+      - insertion sort
+      - various graph algorithms
+        - depth first search
+        - breadth first search
+      - tree traversal algorithms
+        -write post order, preorder, in-order traversals.
+    - All of these things come up a lot in interviews, and if you don't have that core foundation, it's going to be very difficult for you to even practice because a lot of questions require this prerequisite knowledge.
