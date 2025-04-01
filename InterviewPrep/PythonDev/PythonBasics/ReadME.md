@@ -35,7 +35,13 @@ None # means nothing - absence of a value
 - Strings - BuiltIn [Functions](https://docs.python.org/3/library/functions.html) & [Methods](https://www.w3schools.com/python/python_ref_string.asp)
 - Boolean
 - Type Conversion
+- Lists
+  - [list methods](https://www.w3schools.com/python/python_ref_list.asp)
+- Dictionaries
+- tuples
+- sets
 
 ## Developer fundamental Notes
 
 - [comments in python](https://realpython.com/python-comments-guide/)
+- when should you use list and when should you use dictionary?
