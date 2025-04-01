@@ -7,6 +7,7 @@
 - Course Outline:
   - Python Introduction - [PythonCheatSheet](https://github.com/aneagoie/ztm-python-cheat-sheet) & [all code used in this course](https://github.com/aneagoie/All-Python-codes-of-ZTM-course-by-Andrei-Neagoie)
   - Python basics
+    - Numbers, Basic Functions, Operator Precedence, variables, expressions and statements, Strings & its built-in functions and methods, Booleans, type conversions
   - Python basics 2
   - Dev Environment
   - Advanced Topics
