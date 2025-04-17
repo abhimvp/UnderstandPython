@@ -1,0 +1,28 @@
+# Python Basics 2 Module in ZTM
+
+- conditional logic
+- Indentation in Python
+- Truthy vs Falsey
+- Ternary Operator
+- Short Circuiting
+- Logical operators
+- is vs ==
+- For loops
+- Iterables
+- range()
+- enumerate()
+- While Loops
+- break continue pass
+- Our First GUI
+- Dev Fundamentals
+- Functions - parameters & arguments
+- return
+- Methods vs Functions
+- Docstrings
+- CLean code
+- *args & **kwargs
+- Walrus Operator
+- Scope & Scope rules & why do we need scope?
+- global keyword
+- nonlocal keyword
+- 
