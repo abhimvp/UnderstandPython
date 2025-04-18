@@ -6,14 +6,14 @@
   False - [referLaterStackOverflow](https://stackoverflow.com/questions/39983695/what-is-truthy-and-falsy-how-is-it-different-from-true-and-false)
 - Ternary Operator - done
 - Short Circuiting - done
-- Logical operators
-- is vs ==
-- For loops
-- Iterables
-- range()
-- enumerate()
-- While Loops
-- break continue pass
+- Logical operators - done
+- is vs == - done
+- For loops - done
+- Iterables - done
+- range() - done
+- enumerate() - done
+- While Loops - done
+- break continue pass - done
 - Our First GUI
 - Dev Fundamentals
 - Functions - parameters & arguments
@@ -21,9 +21,8 @@
 - Methods vs Functions
 - Docstrings
 - CLean code
-- *args & **kwargs
+- \*args & \*\*kwargs
 - Walrus Operator
 - Scope & Scope rules & why do we need scope?
 - global keyword
 - nonlocal keyword
-- 
