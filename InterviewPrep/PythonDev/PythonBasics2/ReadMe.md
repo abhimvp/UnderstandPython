@@ -22,7 +22,7 @@
 - Docstrings - done
 - CLean code - done
 - \*args & \*\*kwargs - done
-- Walrus Operator
-- Scope & Scope rules & why do we need scope?
-- global keyword
-- nonlocal keyword
+- Walrus Operator (:=) - done
+- Scope & Scope rules & why do we need scope? - done
+- global keyword - done
+- nonlocal keyword - done

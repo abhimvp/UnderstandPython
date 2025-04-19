@@ -16,6 +16,7 @@
     - conditional logic, Truthy vs Falsey, Ternary Operator, Short Circuiting
     - Logical operators, is vs ==, for loops, iterables, while loops, break-continue-pass, enumerate, range
     - Our First GUI - exercise, Dev Fundamentals, Functions - parameters & arguments, return, Methods vs Functions, Docstrings, CLean code ,\*args & \*\*kwargs
+    - Walrus Operator (:=), Scope & Scope rules & why do we need scope?, global keyword, nonlocal keyword
   - Dev Environment
   - Advanced Topics
   - Career options
