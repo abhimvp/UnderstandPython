@@ -14,14 +14,14 @@
 - enumerate() - done
 - While Loops - done
 - break continue pass - done
-- Our First GUI
-- Dev Fundamentals
-- Functions - parameters & arguments
-- return
-- Methods vs Functions
-- Docstrings
-- CLean code
-- \*args & \*\*kwargs
+- Our First GUI - exercise - done
+- Dev Fundamentals - done
+- Functions - parameters & arguments - done
+- return - done
+- Methods vs Functions - done
+- Docstrings - done
+- CLean code - done
+- \*args & \*\*kwargs - done
 - Walrus Operator
 - Scope & Scope rules & why do we need scope?
 - global keyword
