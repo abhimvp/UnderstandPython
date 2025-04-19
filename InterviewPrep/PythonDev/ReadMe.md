@@ -17,11 +17,20 @@
     - Logical operators, is vs ==, for loops, iterables, while loops, break-continue-pass, enumerate, range
     - Our First GUI - exercise, Dev Fundamentals, Functions - parameters & arguments, return, Methods vs Functions, Docstrings, CLean code ,\*args & \*\*kwargs
     - Walrus Operator (:=), Scope & Scope rules & why do we need scope?, global keyword, nonlocal keyword
-  - Dev Environment
-  - Advanced Topics
-  - Career options
-  - Scripting in python
-  - Data Scraping from online
-  - Automation - selenium(to control web browser)
-  - Web Dev & Data science
-  - ML - jupyterNotebooks and Kaggle, Image detection
+  - Dev Environment - installed python interpreter, python developer tools - Terminal - VSCode(installed)/SublimeText - Pycharm - Jupyter (Installed)
+    - Added Dracula Theme Official from vscode extensions.
+    - PEP - python enhancement proposals & installed vscode extension - Black Formatter & added the below in our vscode USer settings.json.
+
+```json
+    "[python]": {
+    "editor.defaultFormatter": "ms-python.black-formatter"
+    }
+```
+
+- Advanced Topics
+- Career options
+- Scripting in python
+- Data Scraping from online
+- Automation - selenium(to control web browser)
+- Web Dev & Data science
+- ML - jupyterNotebooks and Kaggle, Image detection
