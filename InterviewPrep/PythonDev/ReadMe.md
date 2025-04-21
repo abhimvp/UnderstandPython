@@ -30,6 +30,14 @@
 - Advanced Topics
   - OOPs - done
   - Functional Programming - done
+  - Decorators
+  - Generators
+  - modules in python
+  - Error Handling
+  - Debugging in python
+  - File I/O
+  - Regular Expressions
+  - Testing in python
 - Career options
 - Scripting in python
 - Data Scraping from online
