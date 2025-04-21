@@ -28,6 +28,8 @@
 ```
 
 - Advanced Topics
+  - OOPs - done
+  - Functional Programming - done
 - Career options
 - Scripting in python
 - Data Scraping from online
