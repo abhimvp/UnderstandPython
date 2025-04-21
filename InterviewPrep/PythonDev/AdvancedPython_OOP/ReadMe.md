@@ -8,14 +8,14 @@
 - Attributes & Methods - done
 - init dunder method - done
 - @classmethod & @staticmethod - done
-- Dev Fundamental Notes
-- Encapsulation
-- Abstraction
-- Private & public variables
-- Inheritance
-- Polymorphism
-- super()
-- Object Introspection
-- Dunder methods
-- Multiple inheritance
-- MRO: method resolution order.
+- Dev Fundamental Notes - done
+- Encapsulation - done
+- Abstraction - done
+- Private & public variables done
+- Inheritance - done
+- Polymorphism - done
+- super() - done
+- Object Introspection - done
+- Dunder methods - done
+- Multiple inheritance - done
+- MRO: method resolution order. - done
