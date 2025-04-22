@@ -30,10 +30,10 @@
 - Advanced Topics
   - OOPs - done
   - Functional Programming - done
-  - Decorators
+  - Decorators - done
   - Generators
   - modules in python
-  - Error Handling
+  - Error Handling - done
   - Debugging in python
   - File I/O
   - Regular Expressions
