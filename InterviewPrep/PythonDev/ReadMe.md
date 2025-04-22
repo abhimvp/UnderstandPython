@@ -31,7 +31,7 @@
   - OOPs - done
   - Functional Programming - done
   - Decorators - done
-  - Generators
+  - Generators - done
   - modules in python
   - Error Handling - done
   - Debugging in python
