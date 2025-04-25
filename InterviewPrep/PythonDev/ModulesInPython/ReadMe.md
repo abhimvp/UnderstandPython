@@ -84,3 +84,27 @@ ImportError: cannot import name 'multiply' from 'example_utility' (C:\Users\abhi
 - we aren't able to import because we aren't running the example_utility as main file and that's why example_main couldn't find funcs.
 
 - all we are saying with `__name__ == __main__` , if this is the file being run ( importing is different - remember) , then do something - run those lines of code under it.
+
+## Python built-in Modules
+
+- [python module index](https://docs.python.org/3/py-modindex.html) - in here we have all the modules that python gives/provides us. These modules were installed when we actually downloaded python interpreter. In order to use them we need to `import`.
+  - you don't need to memorize all of this, but you need to know these exist.
+  - so we use these built_in_modules in .py file , we can see where the built_in_module is present in our system , currently it's referencing our uv package manager location where it's located.
+
+```bash
+$ python built_in_modules.py
+<module 'random' from 'C:\\Users\\abhis\\AppData\\Roaming\\uv\\python\\cpython-3.12.0-windows-x86_64-none\\Lib\\random.py'>
+
+```
+
+- using sys module
+
+```bash
+$ python built_in_modules.py abhi shek
+# first = sys.argv[1]
+# second = sys.argv[2]
+# print(first)  # prints the first argument passed to the script
+# print(second)  # prints the second argument passed to the script
+abhi
+shek
+```
