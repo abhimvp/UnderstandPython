@@ -43,5 +43,44 @@ $ python example_main.py
 
 - but usually we have this `__init__.py` file inside a package root , because the interpreter will read that file and recognizes this is a package.(In projects)
 - **Different ways to import the modules**:
+
   - using `from` , like `from package.module_name import function_we_want_to_use`
   - same with utility as well , we do `from example_utility import multiply, add` - a nice way to clean up our code.
+
+- as we build through projects or files , we see this `if __name__ == '__main__':` , when working with python , we should know what it does: - let's add `print(__name__)` in our modules and see what it prints.
+  - when we run our `example_main.py` file here , our interpreter goes line by line , it imports utility file by going to that file and runs that file line by line in there and that's why we see `example_utility` being printed on screen when we run main.py, similarly it is same for shopping_cart.
+  - if we add same `print(__name__)` in example_main.py , we see `__main__` get's printed.but why is that? not `example_main` likewise?
+  - The name `__main__` is specifically **given to the file we run** , that's why we see `if __name__ == '__main__': print("example_main.py")` , it prints the following when we run main.py and it's not gonna print example_utility.py when we include something like above in utility.py file. As it is not the file being run and not the main file.
+
+```bash
+$ python example_main.py
+example_utility
+shopping.shopping_cart
+6
+5
+['shoes']
+# __main__
+$ python example_main.py
+example_utility
+shopping.shopping_cart
+6
+5
+['shoes']
+This is the main file - example_main.py
+```
+
+- we will use this `if __name__ == '__main__'` in a file to make sure that we don't want to run the following functions unless it's a main_file.
+- if we keep our multiply,add func under the above line of code we see the following error when we run example_main.py:
+
+```bash
+$ python example_main.py
+example_utility
+Traceback (most recent call last):
+  File "C:\Users\abhis\Desktop\PythonDev\LearnPython\UnderstandPython\InterviewPrep\PythonDev\ModulesInPython\example_main.py", line 2, in <module>
+    from example_utility import multiply, add
+ImportError: cannot import name 'multiply' from 'example_utility' (C:\Users\abhis\Desktop\PythonDev\LearnPython\UnderstandPython\InterviewPrep\PythonDev\ModulesInPython\example_utility.py)
+```
+
+- we aren't able to import because we aren't running the example_utility as main file and that's why example_main couldn't find funcs.
+
+- all we are saying with `__name__ == __main__` , if this is the file being run ( importing is different - remember) , then do something - run those lines of code under it.

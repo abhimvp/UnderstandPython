@@ -11,3 +11,8 @@ print(add(2, 3))
 # print(shopping.shopping_cart)
 # print(shopping.shopping_cart.buy("shoes"))
 print(buy("shoes"))
+
+# print(__name__)
+
+if __name__ == "__main__":
+    print("This is the main file - example_main.py")
